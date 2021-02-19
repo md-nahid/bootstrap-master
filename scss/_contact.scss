@@ -1,0 +1,16 @@
+
+.contact-google-map {
+    div {
+        iframe {
+            width: 100%;
+            border: none;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-google-map,
+    .google-map-title {
+        display: none;
+    }
+}

@@ -1,0 +1,167 @@
+// about us top section style
+@media screen and (max-width: 990px) {
+    .aboutus-main-text {
+        margin-top: 25px;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
+
+// our advantages section style start
+.advantages-icon {
+    font-size: 40px;
+    color: #127c12;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 0 20px 0 rgba(52, 231, 91, 0.507);
+    .plane-icon {
+        transform: rotate(-90deg);
+    }
+}
+.advantages-border {
+    width: 100px;
+    padding: 1px;
+}
+.advantages-text {
+    color: rgb(128, 126, 126);
+}
+// our advantages section style end
+
+
+// clients words section start
+.testimonialsRow {
+    .slideItemContainer {
+        height: 300px;
+        @media screen and (max-width: 768px) {
+            height: 500px;
+        }
+            .slideItem {
+                top: 0%;
+                right: 0%;
+                bottom: 0%;
+                left: 0%;
+                opacity: 0;
+                transition: 2s;
+                .clientImgArea {
+                    position: relative;
+                    div {
+                        width: 150px;
+                        height: 150px;
+                        z-index: 99;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 50%;
+                            transform: translate(-5px, 10px);
+                        }
+                    }
+                    .clientBackImgColor1, .clientBackImgColor2, .clientBackImgColor3 {
+                        position: absolute;
+                    }
+                    .clientBackImgColor1 {
+                        width: 160px;
+                        height: 160px;
+                        border-radius: 50%;
+                        box-shadow: 4px 4px 8px rgba(21, 119, 21, 0.692);
+                        background-color: rgba(39, 131, 21, 0.856);
+                    }
+                    .clientBackImgColor2 {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        z-index: 9;
+                        transform: translate(-70%, -10%);
+                        box-shadow: 4px 4px 8px rgba(79, 122, 172, 0.712);
+                    }
+                    .clientBackImgColor3 {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 50%;
+                        z-index: 9;
+                        transform: translate(90%, 90%);
+                        box-shadow: 4px 4px 8px rgba(97, 99, 100, 0.712);
+                    }
+                }
+                .clientTextArea {
+                    position: relative;
+                    .leftQuote {
+                        font-size: 35px;
+                        opacity: 0.5;
+                        position: absolute;
+                        left: 0%;
+                        top: 0%;
+                        transform: rotate(-30deg);
+                    }
+                    .rightQuote {
+                        font-size: 35px;
+                        opacity: 0.5;
+                        position: absolute;
+                        right: 20%;
+                        bottom: 5%;
+                        transform: rotate(30deg);
+                    }
+                    .clientName {
+                        position: absolute;
+                        left: -18%;
+                        bottom: -15%;
+                        z-index: 9;
+                        text-align: right;
+                        @media screen and (max-width: 992px) {
+                            bottom: -5%;
+                        }
+                        @media screen and (max-width: 767px) {
+                            left: 50%;
+                            top: -10%;
+                            transform: translateX(-50%);
+                        }
+                        h3 {
+                            color: #109137;
+                        }
+                    }
+                }
+            }
+            .slideItemActive {
+                opacity: 1;
+            }
+        }
+    .goright, .goleft {
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 2px 2px 4px #1ba82ea2;
+            &:hover {
+                box-shadow: 4px 4px 8px #1ba82ea2;
+            }
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+}
+// slide indicators style
+.slideIndicators {
+    span {
+        width: 50px;
+        height: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(179, 177, 177);
+        transition: 2s;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .slideIndicatorActive {
+        background-color: #36e430;
+        box-shadow: 2px 2px 4px rgba(41, 74, 219, 0.753);
+    }
+}
+// clients words section end

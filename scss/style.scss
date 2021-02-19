@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsla(123, 72%, 39%, 0.178);
+    max-width: 1360px;
+    overflow: auto;
+    header {
+        max-width: 1360px;
+    }
+}
+// reuseable components
+.button {
+    padding: 10px 25px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    &:hover {
+        box-shadow: 0 4px 6px 0 rgba(122, 120, 120, 0.842);
+    }
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.underlinetext {
+    font-family: 'Bodoni Moda', serif;
+    padding-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+// media query for headings 1-6
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+// media query for headings 1-6
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@import "navbar";
+@import "home";
+@import "about";
+@import "service";
+@import "news";
+@import "contact";
+@import "footer";
+
+

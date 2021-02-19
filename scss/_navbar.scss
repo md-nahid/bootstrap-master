@@ -1,0 +1,51 @@
+
+.main-navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #169612;
+    box-shadow: 0 2px 8px #635f5fc5;
+    nav {
+        div {
+            ul {
+                .main-menu-item {
+                    .main-menu-link {
+                        color: #eeebeb;
+                        font-size: 14px;
+                        margin: 0 5px;
+                        padding: 8px 20px;
+                        border: 2px solid rgba(255, 255, 255, 0);
+                        border-radius: 50px;
+                        transition: 0.5s;
+                        &:hover {
+                            color: #f3efef;
+                            box-shadow: 0px 2px 8px 0px #4b47474d;
+                        }
+                    }
+                    .nav-link.active {
+                        color: #ffc107;
+                        box-shadow: 0px 2px 8px 0px #5a56564d;
+                        border: 2px solid rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// nav toggler icon style
+.navbar-toggler {
+    background-color: #5c5757;
+    &:hover {
+        background-color: #383535;
+    }
+}
+
+.nav-logo-img {
+    img {
+        height: 50px;
+        object-fit: contain;
+    }
+}

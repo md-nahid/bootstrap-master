@@ -1,0 +1,23 @@
+// blog post section style
+.blogpost {
+    position: relative;
+    img {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 2px 2px 8px rgba(14, 51, 151, 0.659);
+    }
+    .icons, .authorname {
+        position: absolute;
+        left: 5%;
+    }
+    .icons {
+        top: 5%;
+    }
+    .authorname {
+        bottom: 0;
+    }
+}
+
+.warningText {
+    display: none;
+}

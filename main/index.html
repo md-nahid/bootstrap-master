@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+    <title>Home | Travel site version 1</title>
+    <link rel="icon" href="images/travellogo.png">
+
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/2e7ff3d1bc.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css cdn link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- animate css cdn link -->
+    <link rel="stylesheet" href="extra/css/animate.min.css">
+    <!-- my style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- top navigation bar start -->
+<header class="main-navigation-bar">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand nav-logo-img" href="#"><img src="images/travellogowithtext.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item main-menu-item">
+          <a class="nav-link main-menu-link active" href="#">HOME</a>
+        </li>
+        <li class="nav-item main-menu-item">
+          <a class="nav-link main-menu-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item main-menu-item">
+          <a class="nav-link main-menu-link" href="service.html">SERVICE</a>
+        </li>
+        <li class="nav-item main-menu-item">
+          <a class="nav-link main-menu-link" href="news.html">BLOG</a>
+        </li>
+        <li class="nav-item main-menu-item">
+          <a class="nav-link main-menu-link" href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>  
+  </nav>
+</header>
+<!-- top navigation bar end -->
+<main>
+<!-- header slider section start -->
+<div class="home-page-carousel">
+  <div class="mt-5 carouselContainer">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators home-carousel-indecatiors">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-item-container active">
+          <img src="images/carouselimg1.jpg" class="carousel-image-height" alt="alt text">
+          <div class="carousel-caption text-white animated slideInUp delay-1s d-none d-md-block">
+            <h2>BEST</h2>
+            <h2 class="ml-5">DESTINATIONS</h2>
+            <p class="ml-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, inventore!</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-container">
+          <img src="images/carouselimg2.jpg" class="carousel-image-height" alt="alt text">
+          <div class="carousel-caption text-white animated slideInUp delay-1s d-none d-md-block">
+            <h2>EXPLORING</h2>
+            <h2 class="ml-5">THE WORLD</h2>
+            <p class="ml-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, inventore!</p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-item-container">
+          <img src="images/carouselimg3.jpg" class="carousel-image-height" alt="alt text">
+          <div class="carousel-caption text-white animated slideInUp delay-1s d-none d-md-block">
+            <h2>MEMORABLE</h2>
+            <h2 class="ml-5">EXPERIENCES</h2>
+            <p class="ml-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, inventore!</p>
+          </div>
+        </div>
+      </div>
+      <!-- <a class="carousel-control-prev carousel-previous-button" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span aria-hidden="true">Previous</span>
+      </a>
+      <a class="carousel-control-next carousel-next-button" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span aria-hidden="true">Next</span>
+      </a> -->
+    </div>
+  </div>
+  <div>
+    <div class="mt-5 container-fluid bg-dark">
+      <div class="row">
+        <div class="col p-0 position-relative carouselContainerTabPhone">
+          <img src="images/smallscreenimg.jpg" alt="Tab home Page photo" class="img-fluid">
+          <div class="position-absolute text-center titleTextTabHomePage">
+            <h1>INTO THE WILD</h1>
+            <a href="service.html" class="btn border pr-5 pl-5 text-decoration-none">Browse For Events</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- header slider section end -->
+
+<!-- last munutes tour title start -->
+<div>
+  <div class="text-center">
+    <h3 class="underlinetext">LAST MINUTES</h3>
+    <div class="text-dark">
+      <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+</div>
+<!-- last munutes tour title end -->
+
+<!-- last minutes travel offer start -->
+<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 mt-3">
+        <div class="card position-relative overflow-hidden rounded-0 last-minutes-tour-card">
+          <img src="images/lastminutesone.jpg" alt="some alt text" class="card-img-top rounded-0">
+          <div class="card-body position-absolute last-minutes-offer-details">
+            <div class="font-weight-bold d-flex justify-content-between align-content-center">
+              <h5>Amsterdam Fun</h5>
+              <p class="text-primary">$ 300</p>
+            </div>
+            <div class="card-subtitle">
+              <p class="last-minutes-tour-card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-3">
+        <div class="card position-relative overflow-hidden rounded-0 last-minutes-tour-card">
+          <div class="position-absolute text-right offer-button">
+            <span class="btn btn-success text-light rounded-0">50% OFF</span>
+          </div>
+          <img src="images/lastminutestwo.jpg" alt="some alt text" class="card-img-top rounded-0">
+          <div class="card-body position-absolute last-minutes-offer-details">
+            <div class="font-weight-bold d-flex justify-content-between align-content-center">
+              <h5>Canal Sailing</h5>
+              <p class="text-primary"><span class="small text-danger"><del>$500</del></span> $250</p>
+            </div>
+            <div class="card-subtitle">
+              <p class="last-minutes-tour-card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-3">
+        <div class="card position-relative overflow-hidden rounded-0 last-minutes-tour-card">
+          <img src="images/lastminutesthree.jpg" alt="some alt text" class="card-img-top rounded-0">
+          <div class="card-body position-absolute last-minutes-offer-details">
+            <div class="font-weight-bold d-flex justify-content-between align-content-center">
+              <h5>Charming Paris</h5>
+              <p class="text-primary">$300</p>
+            </div>
+            <div class="card-subtitle">
+              <p class="last-minutes-tour-card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 mt-3">
+        <div class="card position-relative overflow-hidden rounded-0 last-minutes-tour-card">
+          <div class="position-absolute text-right offer-button">
+            <span class="btn btn-success text-light rounded-0">Special Offer</span>
+          </div>
+          <img src="images/lastminutesthree.jpg" alt="some alt text" class="card-img-top rounded-0">
+          <div class="card-body position-absolute last-minutes-offer-details">
+            <div class="font-weight-bold d-flex justify-content-between align-content-center">
+              <h5>Walking New York</h5>
+              <p class="text-primary">$200</p>
+            </div>
+            <div class="card-subtitle">
+              <p class="last-minutes-tour-card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+          <a href="#" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- last minutes travel offer end -->
+
+<!-- upcomeing events section start -->
+<div class="mb-5">
+  <div class="upcomingevents">
+    <div class="text-center">
+      <!-- reuseable components -->
+      <h3 class="underlinetext">UPCOMING EVENTS</h3>
+      <!-- reuseable components -->
+    </div>
+
+    <div class="d-flex justify-content-end mt-3 p-5 ongoingevent">
+      <div class="text-white text-center p-3 pt-5 mr-5">
+        <h3>Tours And Travels</h3>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <p>adipisicing elit.</p>
+        <a href="#" class="btn btn-warning font-weight-bold text-dark mt-5 p-3 pr-5 pl-5">Check For Upcoming Events</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- upcomeing events section end -->
+
+</main>
+<!-- footer section start -->
+<footer>
+  <div class="bg-dark">
+    <div class="container pt-5 pb-4 text-white">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="pb-4">
+            <img src="images/travellogowithtext.png" alt="company logo" class="img-fluid">
+            <h6 class="mt-3 text-warning">Company Name</h6>
+          </div>
+          <div class="pb-3">
+            <h6 class="text-warning">About Us</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="mt-3">
+            <h6 class="mt-1 text-warning">Contact Us</h6>
+            <p><span class="text-warning mr-2"><i class="fas fa-phone-square-alt"></i></span> +5498461654961</p>
+            <p><span class="text-warning mr-2"><i class="fas fa-envelope-square"></i></span> example@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-3 mt-5">
+          <h6 class="text-warning mb-4">Information</h6>
+          <div class="d-flex flex-column">
+            <a href="#" class="text-decoration-none text-white">About us</a>
+            <a href="#" class="text-decoration-none text-white mt-1">News</a>
+            <a href="#" class="text-decoration-none text-white mt-1">Service</a>
+            <a href="#" class="text-decoration-none text-white mt-1">Contact</a>
+          </div>
+        </div>
+        <div class="col-md-3 mt-5">
+          <h6 class="text-warning mb-4">Helpful Links</h6>
+          <div class="d-flex flex-column">
+            <a href="#" class="text-decoration-none text-white">Help</a>
+            <a href="#" class="text-decoration-none text-white mt-1">Terms & Conditions</a>
+            <a href="#" class="text-decoration-none text-white mt-1">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="col-md-3 mt-5">
+          <p>Subscribe's More Info</p>
+          <form>
+            <div class="input-group bg-white rounded">
+              <span class="input-group-addon text-dark p-2"><i class="fas fa-paper-plane"></i></span>
+              <input id="email" type="email" class="form-control border-0 footer-form" placeholder="Email" required="required">
+            </div>
+            <input type="submit" value="Subscribe" class="btn btn-success text-white mt-3 pl-4 pr-4">
+          </form>
+        </div>
+      </div>
+      <hr class="bg-light">
+      <div class="container pt-3 pb-3 d-flex justify-content-between social-media-container">
+        <div class="text-white d-flex social-media-icon-button">
+          <a href="#" title="Facebook" class="btn btn-success text-white d-flex justify-content-center align-items-center rounded-circle"><span><i class="fab fa-facebook-square"></i></span></a>
+          <a href="#" title="Twitter" class="btn btn-success text-white d-flex justify-content-center align-items-center ml-2 rounded-circle"><span><i class="fab fa-twitter"></i></span></a>
+          <a href="#" title="Linkedin" class="btn btn-success text-white d-flex justify-content-center align-items-center ml-2 rounded-circle"><span><i class="fab fa-linkedin-in"></i></span></a>
+          <a href="#" title="Wechat" class="btn btn-success text-white d-flex justify-content-center align-items-center ml-2 rounded-circle"><span><i class="fab fa-weixin"></i></span></a>
+          <a href="#" title="Instagram" class="btn btn-success text-white d-flex justify-content-center align-items-center ml-2 rounded-circle"><span><i class="fab fa-instagram"></i></span></a>
+        </div>
+        <div class="owener-text">
+          <span>&#169;</span> Nahid. All Rights Reserved.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer section end -->
+
+
+
+
+
+<!-- bootstrap javascript link -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<!-- my javascript file -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

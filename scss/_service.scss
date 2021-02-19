@@ -1,0 +1,115 @@
+
+//most popular tour section style start
+.popular-tour-right-btn, .popular-tour-left-btn {
+    top: 50%;
+    font-size: 35px;
+    transform: translateY(-50%);
+    color: rgba(14, 129, 52, 0.8);
+    @media screen and (max-width: 1024px) {
+        top: 100%;
+        padding: 10px 15px;
+        transform: translateY(0%);
+    }
+}
+.popular-tour-right-btn {
+    right: -30px;
+    @media screen and (max-width: 1024px) {
+        right: 40%;
+    }
+}
+.popular-tour-left-btn {
+    left: -30px;
+    @media screen and (max-width: 1024px) {
+        left: 40%;
+    }
+}
+//most popular tour section style end
+
+// make your plan section style start
+.place-image-box {
+    width: 400px;
+    height: 250px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.make-your-own-travel-plan {
+    background-image: url("../images/createyourplan.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.make-plan {
+    @media screen and (max-width: 768px) {
+        border: none;
+    }
+    form {
+        div {
+            @media screen and (max-width: 768px) {
+                flex-wrap: wrap;
+            }
+            div {
+                margin-left: 15px;
+                margin-right: 15px;
+                label {
+                    background-color: rgba(255, 255, 255, 0);
+                    color: #ffffff;
+                }
+                input {
+                    background-color: rgba(255, 255, 255, 0);
+                    &::placeholder {
+                        color: #ffffff;
+                    }
+                }
+                input[type=date] {
+                    color: #ffffff;
+                    &::-webkit-calendar-picker-indicator {
+                        filter: invert(1);
+                    }
+                }
+            }
+        }
+    }
+}
+// make your plan section style end
+// hotel section style start
+.hotelNearYou {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.hotelButtons {
+    justify-content: flex-end;
+    align-self: center;
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+    }
+    .hotelButtonActive {
+        background-color: rgb(32, 148, 71);
+    }
+}
+.HotelName {
+    font-size: 20px;
+}
+.hotelLocation {
+    font-size: 15px;
+}
+.hotelBadge {
+    font-size: large;
+}
+.hotelApPrice {
+    p {
+        font-size: 13px;
+    }
+    h6 {
+        margin: 0;
+        padding: 0;
+    }
+}
+.hotelSmallScreenTopMargin {
+    @media screen and (max-width: 992px) {
+        margin-top: 16px;
+    }
+}
+// hotel section style end
